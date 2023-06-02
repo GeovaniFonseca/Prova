@@ -1,0 +1,141 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+}
+
+nav {
+    background-color: #e7e7e7;
+
+    padding: 10px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav li {
+    text-align: center;
+    width: 130px;
+    margin-right: 40px;
+    border-style: double;
+    border-color: #303030;
+    border-radius: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+
+}
+
+
+
+#home {
+    background-image: url("https://cdn.noticiasagricolas.com.br/dbimagens/thumbs/1200x600-ar/cafe-destaque-fCiB2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    text-align: center;
+    color: #ffffff;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    flex-direction: column;
+    font-size: 30px;
+}
+
+
+#overlay h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#overlay p {
+    font-size: 24px;
+}
+
+
+.cafe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.lanches-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.item div {
+    flex-grow: 1;
+}
+
+.item h3 {
+    margin-top: 0;
+}
+
+.item p {
+    margin-bottom: 5px;
+}
+
+/* Estilos para a seção de contato */
+#contato {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  #contato h2 {
+    margin-top: 0;
+  }
+  
+  #contato p {
+    margin-bottom: 10px;
+  }
+  
+  #contato img {
+    width: 200px;
+    height: 400px;
+    height: auto;
+  }
+  
+footer{
+    text-align: center;
+}
